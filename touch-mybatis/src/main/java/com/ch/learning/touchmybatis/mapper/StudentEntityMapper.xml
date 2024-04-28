@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ch.springboot.mapper.StudentEntityMapper">
+  <resultMap id="BaseResultMap" type="com.ch.learning.touchmybatis.entity.StudentEntity">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="s_id" jdbcType="VARCHAR" property="sId" />
+    <result column="s_name" jdbcType="VARCHAR" property="sName" />
+    <result column="s_birth" jdbcType="VARCHAR" property="sBirth" />
+    <result column="s_sex" jdbcType="VARCHAR" property="sSex" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>
